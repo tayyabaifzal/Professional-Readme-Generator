@@ -15,18 +15,10 @@ At the end, a README file will be generated with all the information.
 This time saving application can be used to generate a professional README file for your project repository in just a few seconds.
 
 ## Demo Video:
-You can access the demo video via the following link:
-
-[text](<https://drive.google.com/file/d/1tBEhLvK92Js7nKkbQbazsPzJbV_vqmf4/view>)
-
-[text](<../../Downloads/Untitled_ Feb 23 2024 4_19 PM.webm>)
-
-## Links:
-The link to the deployed app is below:
+Watch the [Demo Video](<https://drive.google.com/file/d/1tBEhLvK92Js7nKkbQbazsPzJbV_vqmf4/view>) to understand the installation and working process of the application
 
 
-
-
+## GitHub
 You can access the code via github repo link below:
 
 https://github.com/tayyabaifzal/Professional-Readme-Generator

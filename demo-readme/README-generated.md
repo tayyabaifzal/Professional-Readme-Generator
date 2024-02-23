@@ -1,4 +1,4 @@
-# professional readme generator
+# Professional Readme Generator
 
 ## Table of Contents
 
@@ -12,22 +12,22 @@
 8. [License](#license)
 
 ## Description
-This app allows yoy to generated a professional readme in few seconds
+This application allows users to generate a professional README file on the command line. All you need to do is answer the prompted questions according to your project and a readme file will be generated for you. 
 
 ## Installation
-clone repo to your machine. type npm i to installl inquirer. navigate to js file by using the commnad "node index.js". answer the questions about the repo
+This application needs vs code, node.js, and terminal to run. 
 
 ## Usage
-the app is very useful to generate professional readme file for your projects. it saves time 
+You can launch the application by cloning the repo to your machine. Once the repo is set up, you can start by typing “npm i” in the command line. Once the inquirer is installed, type “node index.js” in the terminal. This command will launch the readme generator, asking you questions about your project. Answer the questions with detailed information. At the end, a README file will be generated with all the information. 
 
 ## Contribution
-no contributors at the moment
+Person 1: Front-endPerson 2: back end 
 
 ## Tests
-you can run node run test to check the code. the test is currently not available on this version of the app
+To run a test, type node run test in the terminal. 
 
 ## GitHub
-tayyabaifzal
+https://github.com/tayyabaifzal
 
 ## Email
 tayyaba.afzal@gmail.com

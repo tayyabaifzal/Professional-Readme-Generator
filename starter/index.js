@@ -40,7 +40,7 @@ const questions = [
     },
     {
         type: "input",
-        name: "userName",
+        name: "github",
         message: "Please enter your GitHub username.",
     },
     {
@@ -53,29 +53,27 @@ const questions = [
         name: "license",
         message: "Please select a license for your project.",
         choices: ["MIT", "ISC", "Apache", "GPL", "BSD", "None"],
-    }
+    },
+
 ];
 
 // function to write README file
 function writeToFile(fileName, data) {
-    fs.writeFile(fileName, generateMarkdown(data), (err) => {
-        if (err) {
-            return console.log(err);
-
-        }else {
-            console.log("Success!");
-        }
-    });
+    fs.writeFile(fileName, data, (err) =>
+        err ? console.error(err) : console.log("Check current file directory for files!"));
 };
+
 
 // function to initialize program
 function init() {
-    inquirer.prompt(questions).then(function (response) {
-        console.log(response);
-        writeToFile('${response.title}.md', response);
+    inquirer.prompt(questions).then((data) => {
+        // console.log(data);
+        const filename = path.join(process.cwd(), "README-generated.md");
+        writeToFile(filename, generateMarkdown.generateMarkdown(data));
 
-});
-}
+
+    });
+};
 
 // function call to initialize program
 init();

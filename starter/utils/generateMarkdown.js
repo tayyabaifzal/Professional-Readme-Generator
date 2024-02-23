@@ -13,6 +13,17 @@ function generateMarkdown(data) {
 
   return `# ${data.title}
 
+## Table of Contents
+
+1. [Description](#description)
+2. [Installation](#installation)
+3. [Usage](#usage)
+4. [Contribution](#contributing)
+5. [Tests](#tests)
+6. [GitHub](#github)
+7. [Email](#email)
+8. [License](#license)
+
 ## Description
 ${data.description}
 
@@ -22,7 +33,7 @@ ${data.installation}
 ## Usage
 ${data.usage}
 
-## Contributing
+## Contribution
 ${data.contributionGuidelines}
 
 ## Tests
